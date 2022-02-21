@@ -1,0 +1,209 @@
+.App{
+  width:100%;
+  height:100%;
+}
+
+button{
+  background-color: rgb(70, 71, 71);
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin: 2%;
+  
+}
+.Modal{
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  border-radius: 5px;
+  height: 30pc ;
+  position: absolute;
+  margin-left:25%;
+  margin-top: 5%;
+  box-shadow: black 0px 3px 15px;
+
+}
+.Content{
+  padding: 2% 4% 2% 4%;
+}
+h3{
+  float: left;
+}
+a{
+  float: right;
+  padding:3% ;
+  color: #2879f3;
+  text-decoration: none;
+}
+
+.divi-1{
+  margin-top: 12%;
+}
+.divi-2{
+  margin-top: 2%;
+}
+.divi-3{
+  margin-top: 2%;
+}
+/* divi-1 */
+.divi-1 p{
+float: left;
+font-family: 'Courier New', Courier, monospace;
+color: rgb(75, 75, 75);
+font-size: 85%;
+
+
+}
+.divi-1 span{
+  font-size: 85%;
+  float: right;
+margin-top: 3%;
+font-family:'Courier New', Courier, monospace;
+
+
+}
+.color-1{
+  background-color: #3d3d3d;
+  width: 40px;
+  height: 15px;
+  margin-left: 5px;
+}
+/* divi-2 */
+.divi-2 p{
+  float: left;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(75, 75, 75);
+  font-size: 85%;
+  
+  
+  }
+  .divi-2 span{
+    font-size: 85%;
+    float: right;
+  margin-top: 3%;
+  font-family:'Courier New', Courier, monospace;
+  
+  
+  }
+  .color-2{
+    background-color: #fffdfd;
+    width: 40px;
+    height: 15px;
+    margin-left: 5px;
+  }
+  /* divi-3 */
+  .divi-3 p{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(75, 75, 75);
+    font-size: 85%;
+    
+    
+    }
+    .divi-3 span{
+      font-size: 85%;
+      float: right;
+    margin-top: 3%;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+    }
+    .color-3{
+      background-color: #522ef1;
+      width: 40px;
+      height: 15px;
+      margin-left: 5px;
+    }
+     /* divi-4 */
+  .divi-4 p{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(75, 75, 75);
+    font-size: 85%;
+    
+    
+    }
+    .divi-4 span{
+      font-size: 13px;
+      float: right;
+    margin-top: 3%;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+    }
+    .color-4{
+      background-color: #113af0;
+      width: 40px;
+      height: 15px;
+      margin-left: 5px;
+    }
+     /* divi-5 */
+  .divi-5 p{
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(75, 75, 75);
+    font-size: 85%;
+    
+    
+    }
+    .divi-5 span{
+      font-size: 85%;
+      float: right;
+    margin-top: 3%;
+    font-family:'Courier New', Courier, monospace;
+    
+    
+    }
+    .color-5{
+      background-color: #0a0092;
+      width: 40px;
+      height: 15px;
+      margin-left: 5px;
+    }
+
+
+hr{
+  margin-top: 5%;
+}
+.Cancel{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.Save{
+  background-color:rgb(71, 71, 248) ;
+  border: 1px solid black;
+  border-radius: 5px;
+
+
+}
+@media(max-width:768px){
+  .Modal{
+    margin-top: 2%;
+    width: 80%;
+    margin-left: 8%;
+    height: 90%;
+  }
+  .divi-1{
+    margin-top: 25%;
+  }
+  hr{
+    width: 100%;
+  }
+}
+@media(max-width:425px){
+  .Modal{
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    margin-left:0%;
+  }
+  .divi-1{
+    margin-top: 25%;
+  }
+  hr{
+    width: 100%;
+  }
+}
+
