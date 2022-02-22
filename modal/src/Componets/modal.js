@@ -56,34 +56,7 @@ const Modal = (props) => {
                         </div>
 
                        
-                        {/* <div className="divi-2" style={{backgroundColor:`${col.colorOne}`}}>
-                        <p>Background Color</p>
-                        <span className="color-2"></span>
-                        <span>{col.textOne}</span><br></br>
-                        <hr></hr>
-
-                        </div>
-                        <div className="divi-3">
-                        <p>Button Color</p>
-                        <span className="color-3" style={{backgroundColor:`${col.colorTwo}`}}></span>
-                        <span>{col.textTwo}</span><br></br>
-                        <hr></hr>
-
-                        </div>
-                        <div className="divi-4">
-                        <p>Button border Color</p>
-                        <span className="color-4" style={{backgroundColor:`${col.colorThree}`}}></span>
-                        <span>{col.textThree}</span><br></br>
-                        <hr></hr>
-
-                        </div>
-                        <div className="divi-5">
-                        <p>Border Mousover Color</p>
-                        <span className="color-5" style={{backgroundColor:`${col.colorFour}`}}></span>
-                        <span>{col.colorFour}</span><br></br>
-                        <hr></hr>
-
-                        </div> */}
+                        
                              
                     </div>
                     ))}
