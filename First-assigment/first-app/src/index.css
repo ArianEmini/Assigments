@@ -1,7 +1,7 @@
 
 
 img{
-  width: 30%;
+  width: 20%;
   border: 1px solid rgb(168, 168, 168);
   border-radius:51% 49% 49% 51% / 48% 49% 51% 52%  ;
   object-fit:contain;
@@ -18,12 +18,13 @@ p,strong{
 .List-app{
   display: flex;
   flex-wrap: wrap;
-  margin: 2% 2% 2% 3.2%;
+  
+  /* margin: 2% 2% 2% 3.2%; */
   
 
 }
-.List-app>* {
+/* .List-app>* {
   flex: 1 1 300px;
-}
+} */
 
 
