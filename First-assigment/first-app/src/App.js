@@ -100,7 +100,35 @@ const cards=[
     name:"Kevin Joe",
     description:"We can see the same thing happening with columns. The container will need to have a height in order that the items will start wrapping and creating new columns, and items will stretch taller to fill each column completely.",
     button:"Donwload"
-  }
+  },
+  {
+    date:"3.3.0(14/5/2018)",
+    color:"#01C853",
+    nameColor:"New",
+    photo:"https://cdn1.vectorstock.com/i/1000x1000/99/80/female-avatar-without-a-face-flat-vector-22999980.jpg",
+    name:"Kevin Joe",
+    description:"A description file is an ASCII text file that contains descriptions of file and key specifications that the Maintenance tool can use to create data files and indexes. Some users employ description",
+    button:"Donwload"
+ },
+ {
+   date:"3.1.0(20/05/2015)",
+   color:"#2961FF",
+   nameColor:"Hix",
+   photo:"https://cdn1.vectorstock.com/i/1000x1000/99/80/female-avatar-without-a-face-flat-vector-22999980.jpg",
+   name:"Kevin Joe",
+   description:"Description files contain one or more elements. An element consists of a keyword, followed by an equal sign (=), followed by a value (with no space). Each element in a description file corresponds to a particular characteristic",
+   button:"Donwload"
+ },
+ {
+   date:"3.3.0(14/5/2018)",
+   color:"#C35BFF",
+   nameColor:"Improvenent",
+   photo:"https://cdn1.vectorstock.com/i/1000x1000/99/80/female-avatar-without-a-face-flat-vector-22999980.jpg",
+   name:"Kevin Joe",
+   description:"We can see the same thing happening with columns. The container will need to have a height in order that the items will start wrapping and creating new columns, and items will stretch taller to fill each column completely.",
+   button:"Donwload"
+ }
+
 
 ];
 
@@ -145,11 +173,11 @@ function App() {
                  
                   <Card  key={card.date}  Datee={card.date} Color={card.color} Photo={card.photo}  Name={card.name}  Description={card.description}  Button={card.button} ColorName={card.nameColor} />
                   
-                  <Card  key={card.date}  Datee={card.date} Color={card.color} Photo={card.photo}  Name={card.name}  Description={card.description}  Button={card.button} ColorName={card.nameColor}/>
+                  {/* <Card  key={card.date}  Datee={card.date} Color={card.color} Photo={card.photo}  Name={card.name}  Description={card.description}  Button={card.button} ColorName={card.nameColor}/>
  
                   <Card  key={card.date}  Datee={card.date} Color={card.color} Photo={card.photo}  Name={card.name}  Description={card.description}  Button={card.button} ColorName={card.nameColor}/>
 
-    
+     */}
             </div>
 
 

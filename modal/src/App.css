@@ -19,33 +19,35 @@ button{
   /* height: 30pc ; */
   position: absolute;
   margin-left:25%;
-  margin-top: 5%;
+  margin-top: 2%;
   box-shadow: black 0px 3px 15px;
 
 }
 .Content{
   padding: 2% 4% 2% 4%;
 }
-h3{
-  float: left;
+.header{
+  display: flex;
+  
 }
+.space{
+  flex: 1;
+}
+ 
+
+
 a{
-  float: right;
+
   padding:3% ;
   color: #2879f3;
   text-decoration: none;
 }
 
 .divi-1{
-  margin-top: 12%;
+  margin-top: 4%;
+  
 }
-.divi-2{
-  margin-top: 2%;
-}
-.divi-3{
-  margin-top: 2%;
-}
-/* divi-1 */
+
 .divi-1 p{
 float: left;
 font-family: 'Courier New', Courier, monospace;
@@ -63,7 +65,7 @@ font-family:'Courier New', Courier, monospace;
 
 }
 .color-1{
-  background-color: #3d3d3d;
+  /* background-color: #3d3d3d; */
   width: 40px;
   height: 15px;
   margin-left: 5px;
@@ -86,7 +88,7 @@ font-family:'Courier New', Courier, monospace;
   
   }
   .color-2{
-    background-color: #fffdfd;
+    /* background-color: #fffdfd; */
     width: 40px;
     height: 15px;
     margin-left: 5px;
@@ -109,7 +111,7 @@ font-family:'Courier New', Courier, monospace;
     
     }
     .color-3{
-      background-color: #522ef1;
+      /* background-color: #522ef1; */
       width: 40px;
       height: 15px;
       margin-left: 5px;
@@ -132,7 +134,7 @@ font-family:'Courier New', Courier, monospace;
     
     }
     .color-4{
-      background-color: #113af0;
+      /* background-color: #113af0; */
       width: 40px;
       height: 15px;
       margin-left: 5px;
@@ -155,7 +157,7 @@ font-family:'Courier New', Courier, monospace;
     
     }
     .color-5{
-      background-color: #0a0092;
+      /* background-color: #0a0092; */
       width: 40px;
       height: 15px;
       margin-left: 5px;
@@ -183,13 +185,16 @@ hr{
     margin-top: 2%;
     width: 80%;
     margin-left: 8%;
-    height: 90%;
+   
   }
   .divi-1{
-    margin-top: 25%;
+    margin-top: 5%;
   }
   hr{
     width: 100%;
+  }
+  h3{
+    margin-top: 0%;
   }
 }
 @media(max-width:425px){
@@ -200,10 +205,12 @@ hr{
     margin-left:0%;
   }
   .divi-1{
-    margin-top: 25%;
+    margin-top: 11%;
   }
   hr{
     width: 100%;
+    margin-top: 0;
   }
+
 }
 
