@@ -1,0 +1,33 @@
+.Navbar{
+    position: fixed;
+    top: 0%;
+    left: 0;
+    background-color: rgb(216, 216, 216);
+    height: 100%;
+    width: 50%;
+    z-index: 100;
+}
+ul{
+    display: flex;
+    margin-top: 50%;
+}
+li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin:2%;
+    
+    font-size: 20px;
+    
+    
+}
+
+
+
+
+@media(min-width:768px){
+    .Navbar{
+        display: none;
+    }
+}

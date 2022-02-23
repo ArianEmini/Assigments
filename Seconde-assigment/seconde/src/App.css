@@ -1,0 +1,23 @@
+
+    .Tabs{
+        background-color: rgb(233, 230, 230);
+       
+        }
+        .App{
+            background-color:rgb(235, 231, 231) ;
+            
+        }
+        .Tabs{
+        color: rgb(0, 0, 0);
+       
+        }
+    
+        @media(max-width:768px){
+           .header-app{
+               display: none;
+           }
+         
+        
+        }
+        
+        
