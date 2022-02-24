@@ -1,6 +1,7 @@
 
     .Tabs{
         background-color: rgb(233, 230, 230);
+        z-index: 200;
        
         }
         .App{
@@ -12,12 +13,14 @@
        
         }
     
-        @media(max-width:768px){
+        /* @media(max-width:768px){
            .header-app{
                display: none;
            }
          
         
         }
+         */
+     
         
-        
+       

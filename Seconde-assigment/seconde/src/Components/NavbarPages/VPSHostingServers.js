@@ -1,3 +1,4 @@
+import React from 'react';
 const VPSHosting = () => {
     return ( 
         <div className="Body">

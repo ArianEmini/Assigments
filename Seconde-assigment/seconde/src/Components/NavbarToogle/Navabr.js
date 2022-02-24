@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState}  from 'react';
 import "./navbar.css"
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 import Domains from "../NavbarPages/Domains";
@@ -9,10 +9,18 @@ import WorpresHosting from "../NavbarPages/WordPressHosting";
 import EmailHosting from "../NavbarPages/EmailHosting";
 import VPSHosting from "../NavbarPages/VPSHostingServers";
 import FreeHosting from "../NavbarPages/FreeHosting";
+// import {Tabs,Tab,AppBar} from "@material-ui/core";
+
 const NavbarResponse = () => {
+    const [value,setvalue]=useState(0);
+    const handlerTabls=(e,val)=>{
+   setvalue(val)
+  }
     return (
+      
         <div className="Navbar">
-            <Router>
+  
+            {/* <Router>
              <nav>
                  <ul>
                      <li>
@@ -30,35 +38,35 @@ const NavbarResponse = () => {
                  </ul>
              </nav>
              <Switch>
-                 <Route path="Domains" component={Domains} />
+                 <Route path="/Domains"  component={Domains} />
              </Switch>
              <Switch>
-                 <Route path="WebHosting" component={WebHosting}/>
+                 <Route path="/WebHosting"  component={WebHosting}/>
              </Switch>
              <Switch>
-                 <Route path="DedicatedServers" component={DedicatedServers}/>
+                 <Route path="/DedicatedServers" component={DedicatedServers}/>
              </Switch>
              <Switch>
-                 <Route path="VirtualCloudServers" component={VirtualCloudServers}/>
+                 <Route path="/VirtualCloudServers" component={VirtualCloudServers}/>
              </Switch>
              <Switch>
-                 <Route path="WordPressHosting" component={WorpresHosting}/>
+                 <Route path="/WordPressHosting" component={WorpresHosting}/>
              </Switch>
              <Switch>
-                 <Route path="EmailHosting" component={EmailHosting}/>
+                 <Route path="/EmailHosting" component={EmailHosting}/>
              </Switch>
              <Switch>
-                 <Route path="VPSHostingServers" component={VPSHosting}/>
+                 <Route path="/VPSHostingServers" component={VPSHosting}/>
              </Switch>
              <Switch>
-                 <Route path="FreeHosting" component={FreeHosting}/>
+                 <Route path="/FreeHosting" component={FreeHosting}/>
              </Switch>
 
 
 
 
 
-             </Router>
+             </Router> */}
         </div>
       );
 }

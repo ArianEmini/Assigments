@@ -19,13 +19,17 @@ function App() {
 }
   return (
     <div className="App">
-      <nav>
-        <NavbarResponse/>
+     
+        {/* <NavbarResponse/> */}
 
-      </nav>
+      
       <header className='header-app'>
       <AppBar className='Appbar'>
-         <Tabs className="Tabs" value={value} onChange={handlerTabls}>
+         <Tabs className="Tabs" value={value} onChange={handlerTabls}
+    
+         
+         
+         >
            <Tab style={{fontSize:"8px"}} label="Domains"></Tab>
            <Tab style={{fontSize:"8px" }} label="Web Hosting"></Tab>
            <Tab style={{fontSize:"8px" }} label="Deticeted Servise"></Tab>

@@ -1,3 +1,5 @@
+import React from 'react'
+
 const VirtualCloudServers = () => {
     return ( 
         <div className="Body">

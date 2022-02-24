@@ -1,3 +1,5 @@
+import React from 'react'
+
 const EmailHosting = () => {
     return ( 
         <div className="Body">
