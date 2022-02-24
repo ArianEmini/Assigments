@@ -5,34 +5,34 @@ const WebHosting = (props) => {
     const DomainsData=[
         {
           name:"Basic",
-          listone:"Single website",
-          listtwo:"50GB website space",
-          listthree:"Free Domain for one your",
-          listfour:"Standard features",
+          listone:"1.Single website",
+          listtwo:"2.50GB website space",
+          listthree:"3.Free Domain for one your",
+          listfour:"4.Standard features",
           buy:"$5.99/yr",
           oldbuy:"$10.99/yr",
           button:"Buy now"
         },
         {
           name:"Plus",
-          listone:"Unlimited website",
-          listtwo:"Unmeterd website space",
-          listthree:"Free Domain for one your",
-          listfour:"Standard features",
-          listfive:"Essential features",
+          listone:"1.Unlimited website",
+          listtwo:"2.Unmeterd website space",
+          listthree:"3.Free Domain for one your",
+          listfour:"4.Standard features",
+          listfive:"5.Essential features",
           buy:"$55.99/yr",
           oldbuy:"$10.99/yr",
           button:"Buy now"
         },
         {
             name:"Choice Plus",
-            listone:"Unlimited website",
-            listtwo:"Unmeterd website space",
-            listthree:"Free Domain for one your",
-            listfour:"1 Domain privacy",
-            listfive:"Automated Backup",
-            listsix:"Standard features",
-            listseven:"Essential features",
+            listone:"1.Unlimited website",
+            listtwo:"2.Unmeterd website space",
+            listthree:"3.Free Domain for one your",
+            listfour:"5. 1 Domain privacy",
+            listfive:"6.Automated Backup",
+            listsix:"7.Standard features",
+            listseven:"8.Essential features",
             buy:"$55.99/yr",
             oldbuy:"$10.99/yr",
             button:"Buy now"
@@ -57,11 +57,9 @@ const WebHosting = (props) => {
                    <li>{dom.listseven}</li>
 
                 </ul>
-                  <div className="Footer-Card">
                  <h4>Starting at $2.95/mo*</h4>
-                 <p>normally $8.99</p>
+                 <del >normally $8.99</del>
                  <button className="buttonHosting">Select</button>
-                 </div>
                </div>
                
 

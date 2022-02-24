@@ -61,7 +61,7 @@ const Domains = (props) => {
     <h2>{dom.name}</h2>
     <h5>{dom.buy}</h5>
     <p>{dom.oldbuy}</p>
-    <button>{dom.button}</button>
+    <button className="Domainsbutton">{dom.button}</button>
  </div>
 
 
