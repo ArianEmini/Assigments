@@ -10,7 +10,7 @@ import WorpresHosting from './Components/NavbarPages/WordpressHosting/WordPressH
 import EmailHosting from './Components/NavbarPages/EmailHosting/EmailHosting';
 import VPSHostingServers from './Components/NavbarPages/VPSHosting/VPSHostingServers';
 import FreeHosting from './Components/NavbarPages/FreeHosting/FreeHosting';
-import NavbarResponse from './Components/NavbarToogle/Navabr';
+// import NavbarResponse from './Components/NavbarToogle/Navabr';
 function App() {
 
   const [value,setvalue]=useState(0);

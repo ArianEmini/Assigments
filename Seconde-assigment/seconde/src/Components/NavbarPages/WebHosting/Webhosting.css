@@ -6,4 +6,76 @@
     width: 100%;
     background-color: #f3f3f3;
     padding-top: 3%;
+    
 }
+
+
+.Card-content-Hosting{
+    background-color:white ;
+    width: 25%;
+    padding: 2% 0% 2% 0%;
+    border: 1px solid #3575D3 ;
+    margin-right:1% ;
+    
+}
+.Card-content-Hosting:hover{
+    opacity:0.7;
+
+}
+.CardHosting{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     margin: 0% 7% 30% 7%;
+
+}
+
+h2,h4{
+    display: flex;
+    justify-content: center;
+    color: #3575D3;
+}
+h4{
+    margin-top: 30%;
+}
+ ul{
+   
+    display: flex;
+    flex-direction: column;
+  
+    font-size: 15px;
+}
+li{
+    padding-top: 5%;
+    list-style-type: none
+}
+.buttonHosting{
+   
+    bottom:0%;
+    display: flex;
+    margin: auto;
+    padding: 4% 13%;
+    border:none;
+    background-color: rgb(13, 201, 13);
+    color: white;
+    border-radius: 2px;
+    
+}
+
+.paragrafHosting{
+    font-size: 15px;
+}
+
+@media(max-width:768px){
+    .Card-content-Hosting{
+        width: 30%;
+        margin-bottom: 10%;
+    }
+}
+@media(max-width:425px){
+    .Card-content-Hosting{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+}
+
