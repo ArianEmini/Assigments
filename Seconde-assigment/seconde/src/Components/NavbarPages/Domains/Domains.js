@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Domains.css"
 const DomainsData=[
   {
     name:".COM",
@@ -52,7 +52,7 @@ const DomainsData=[
 
 const Domains = (props) => {
   return ( 
-<div className="Body" >
+<div className="Domains" >
 <div className="Card">
  {DomainsData.map((dom)=>(
 

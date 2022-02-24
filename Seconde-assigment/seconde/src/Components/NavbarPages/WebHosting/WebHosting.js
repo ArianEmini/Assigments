@@ -1,12 +1,11 @@
 import React from "react";
-import "./StylePage.css"
+import "./Webhosting.css"
 const WebHosting = (props) => {
-    const {children,value,index}=props;
     return ( 
-<div className="Body" >
+<div className="WebHosting" >
 
 <h3>Web Hosting</h3>
-
+    
 
 </div>
 

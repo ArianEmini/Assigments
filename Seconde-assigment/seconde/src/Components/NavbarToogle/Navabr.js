@@ -1,14 +1,14 @@
 import React,{useState}  from 'react';
 import "./navbar.css"
-import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
-import Domains from "../NavbarPages/Domains";
-import WebHosting from "../NavbarPages/WebHosting";
-import DedicatedServers from "../NavbarPages/DedicatedServers";
-import VirtualCloudServers from "../NavbarPages/VirtualCloud Servers";
-import WorpresHosting from "../NavbarPages/WordPressHosting";
-import EmailHosting from "../NavbarPages/EmailHosting";
-import VPSHosting from "../NavbarPages/VPSHostingServers";
-import FreeHosting from "../NavbarPages/FreeHosting";
+// import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+// import Domains from "../NavbarPages/Domains";
+// import WebHosting from "../NavbarPages/WebHosting";
+// import DedicatedServers from "../NavbarPages/DedicatedServers/DedicatedServers";
+// import VirtualCloudServers from "../NavbarPages/VirtualCloudServers/VirtualCloud Servers";
+// import WorpresHosting from "../NavbarPages/WordpressHosting/WordPressHosting";
+// import EmailHosting from "../NavbarPages/EmailHosting/EmailHosting";
+// import VPSHosting from "../NavbarPages/VPSHosting/VPSHostingServers";
+// import FreeHosting from "../NavbarPages/FreeHosting/FreeHosting";
 // import {Tabs,Tab,AppBar} from "@material-ui/core";
 
 const NavbarResponse = () => {

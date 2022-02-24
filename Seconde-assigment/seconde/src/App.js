@@ -2,14 +2,14 @@ import './App.css';
 import React,{useState} from 'react';
 import {Tabs,Tab,AppBar} from "@material-ui/core";
 import 'react-tabs/style/react-tabs.css';
-import WebHosting from './Components/NavbarPages/WebHosting';
-import Domains from './Components/NavbarPages/Domains';
-import DedicatedServers from './Components/NavbarPages/DedicatedServers';
-import VirtualCloudServers from './Components/NavbarPages/VirtualCloud Servers';
-import WorpresHosting from './Components/NavbarPages/WordPressHosting';
-import EmailHosting from './Components/NavbarPages/EmailHosting';
-import VPSHostingServers from './Components/NavbarPages/VPSHostingServers';
-import FreeHosting from './Components/NavbarPages/FreeHosting';
+import WebHosting from './Components/NavbarPages/WebHosting/WebHosting';
+import Domains from './Components/NavbarPages/Domains/Domains';
+import DedicatedServers from './Components/NavbarPages/DedicatedServers/DedicatedServers';
+import VirtualCloudServers from './Components/NavbarPages/VirtualCloudServers/VirtualCloud Servers';
+import WorpresHosting from './Components/NavbarPages/WordpressHosting/WordPressHosting';
+import EmailHosting from './Components/NavbarPages/EmailHosting/EmailHosting';
+import VPSHostingServers from './Components/NavbarPages/VPSHosting/VPSHostingServers';
+import FreeHosting from './Components/NavbarPages/FreeHosting/FreeHosting';
 import NavbarResponse from './Components/NavbarToogle/Navabr';
 function App() {
 

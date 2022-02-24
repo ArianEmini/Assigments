@@ -1,8 +1,8 @@
 import React from "react";
-import "./StylePage.css"
+import "./DedicatedServers.css";
 const DedicatedServers = () => {
     return ( 
-        <div class="Body">
+        <div class="DedicatedServers">
               <h3>Dedicate Servers</h3>
         </div>
 
