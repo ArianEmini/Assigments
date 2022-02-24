@@ -1,11 +1,11 @@
 
     .Tabs{
-        background-color: rgb(233, 230, 230);
+        background-color: #f3f3f3;
         z-index: 200;
        
         }
         .App{
-            background-color:rgb(235, 231, 231) ;
+            background-color:#f3f3f3 ;
             
         }
         .Tabs{

@@ -3,10 +3,10 @@
     top:8%;
     left:0%;
     right: 0%;
-    height: 100%;
+    
     width: 100%;
-    background-color: #EBE7E7;
-    padding-top: 7%;
+    background-color: #f3f3f3;
+    padding-top: 3%;
 }
 .Appbar{
   font-display: fixed;
@@ -14,6 +14,57 @@
   
     
 }
+.Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     margin: 0% 7% 10% 7%;
 
+}
+.Card-content{
+    background-color: white;
+    width: 19%;
+    padding: 2%;
+    margin-bottom: 4%;
+}
+p{
+    font-size: 10px;
+    color:gray;
+    
+    
+}
+
+.Card-content h2, h5, p {
+  
+   
+    display: flex;
+    justify-content: center;
+}
+.Card-content h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+button{
+    display: flex;
+    margin: auto;
+    padding: 2% 20%;
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+
+}
+
+@media(max-width:768px){
+    .Card-content{
+        width: 40%;
+    }
+}
+@media(max-width:425px){
+    .Card-content{
+        width: 100%;
+    }
+}
 
 
