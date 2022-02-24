@@ -1,62 +1,72 @@
 import React from "react";
 
+const DomainsData=[
+  {
+    name:".COM",
+    buy:"$5.99/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  },
+  {
+    name:".AI",
+    buy:"$55.99/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  },
+  {
+    name:".NET",
+    buy:"$7.99/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  },
+  {
+    name:".HEALTH",
+    buy:"$7.99/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  },
+  {
+    name:".CO.UK",
+    buy:"$3.99/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  },
+  {
+    name:".ORG",
+    buy:"$15.99/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  }, {
+    name:".CO",
+    buy:"$26.33/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  },
+  {
+    name:".SEA",
+    buy:"265.33/yr",
+    oldbuy:"$10.99/yr",
+    button:"Buy now"
+  }
+]
+
 const Domains = (props) => {
   return ( 
 <div className="Body" >
-
 <div className="Card">
+ {DomainsData.map((dom)=>(
+
   <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
+    <h2>{dom.name}</h2>
+    <h5>{dom.buy}</h5>
+    <p>{dom.oldbuy}</p>
+    <button>{dom.button}</button>
  </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
- <div className="Card-content">
-    <h2>.COM</h2>
-    <h5>$5.99/yr</h5>
-    <p>instead of $10.99/yr</p>
-    <button>Buy Now</button>
- </div>
+
+
+ ))}
+
 </div>
-
-
-
 </div>
 
    );

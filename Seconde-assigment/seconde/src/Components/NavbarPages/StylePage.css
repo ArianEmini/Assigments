@@ -3,7 +3,6 @@
     top:8%;
     left:0%;
     right: 0%;
-    
     width: 100%;
     background-color: #f3f3f3;
     padding-top: 3%;
@@ -48,12 +47,15 @@ p{
 button{
     display: flex;
     margin: auto;
-    padding: 2% 20%;
-    border: 1px solid blue;
+    padding: 3% 30%;
+    border: 1px solid rgb(77, 118, 253);
     background-color: white;
-    color: blue;
+    color: rgb(77, 118, 253);
     border-radius: 5px;
 
+}
+button:hover{
+    opacity: 0.5;
 }
 
 @media(max-width:768px){
