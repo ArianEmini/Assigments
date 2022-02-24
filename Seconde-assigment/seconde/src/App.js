@@ -55,7 +55,9 @@ function App() {
        {value===7 && <FreeHosting/>} 
 
 
+   
 
+      
       
     </div>
   );

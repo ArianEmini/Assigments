@@ -1,7 +1,7 @@
 import React from "react";
 import "./Domains.css"
-
-
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faAngleDown} from "@fortawesome/free-solid-svg-icons"
 const Domains = (props) => {
   const DomainsData=[
     {
@@ -68,6 +68,22 @@ const Domains = (props) => {
  ))}
 
 </div>
+
+
+
+<div className='TogglePossible'>
+        <div className="divi">
+        <p className="paragraf-domain">Why park a domain name in Parkname?</p>
+        <div className="space"></div>
+        <FontAwesomeIcon className="icone" icon={faAngleDown}></FontAwesomeIcon>
+        </div>
+        <div className="div-domain">
+        <p className="ParaDomain">Parname is the leading industy standard for domain name parking and monetizaion services.We offer a wide variety of services to halp you achieve</p>
+        </div>
+     </div>
+
+
+
 </div>
 
    );

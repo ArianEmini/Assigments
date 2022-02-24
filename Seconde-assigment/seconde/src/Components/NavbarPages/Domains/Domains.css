@@ -73,4 +73,50 @@ button:hover{
     }
 }
 
+.TogglePossible{
+    border: 1px solid rgb(201, 201, 201);
+    width: 80%;
+    display: block;
+    margin: auto;
 
+}
+.divi{
+    display: flex;
+      
+}
+.space{
+    flex: 1;
+}
+.icone{
+    padding: 2%;
+    
+}
+
+.paragraf-domain{
+    font-size: 12px;
+    color: black;
+  justify-content: flex-start;
+  padding: 1%;
+  
+  
+  
+}
+.ParaDomain{
+    justify-content: flex-start;
+    padding: 3%;
+    /* display: none; */
+}
+
+
+.icone{
+   
+   
+    
+}
+.div-domain{
+    margin: 0% 1% 0% 1%;
+    border-top: 1px solid rgb(201, 201, 201);
+}
+hr{
+   height: 1px !important; 
+}
