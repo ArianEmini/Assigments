@@ -54,7 +54,7 @@ p{
     border-radius: 5px;
 
 }
-button:hover{
+.Domainsbutton:hover{
     opacity: 0.5;
 }
 
@@ -87,11 +87,14 @@ button:hover{
 .space{
     flex: 1;
 }
-.icone{
-    padding: 2%;
-    
-}
 
+.buttonToggle{
+    border:none;
+    background-color: #f3f3f3;
+    opacity: 1;
+    margin-right: 1%;
+
+}
 .paragraf-domain{
     font-size: 12px;
     color: black;
@@ -115,4 +118,10 @@ button:hover{
 }
 hr{
    height: 1px !important; 
+}
+
+
+.TogglePossible{
+
+    margin-bottom:10%;
 }
