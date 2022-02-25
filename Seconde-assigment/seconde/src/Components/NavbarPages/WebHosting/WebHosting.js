@@ -45,8 +45,11 @@ const WebHosting = (props) => {
     <div className="CardHosting">
         {DomainsData.map((dom)=>(
                <div className="Card-content-Hosting">
+                
                    <h2>{dom.name}</h2>
                    <p className="paragrafHosting">Perfect for getting</p>
+                   
+                
                 <ul>
                    <li>{dom.listone}</li>
                    <li>{dom.listtwo}</li>
@@ -57,9 +60,12 @@ const WebHosting = (props) => {
                    <li>{dom.listseven}</li>
 
                 </ul>
-                 <h4>Starting at $2.95/mo*</h4>
+               
+                <div className="footer-Card">
+                 <h5>Starting at $2.95/mo*</h5>
                  <del >normally $8.99</del>
                  <button className="buttonHosting">Select</button>
+                 </div>
                </div>
                
 

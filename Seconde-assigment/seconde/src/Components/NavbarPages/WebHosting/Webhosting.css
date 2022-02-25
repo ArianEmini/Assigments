@@ -33,8 +33,14 @@
      margin: 0% 7% 30% 7%;
 
 }
+h2{
+display: flex;
+justify-content: center;
+margin-bottom: auto;
+}
 
-h2,h4{
+ h5{
+    
     display: flex;
     justify-content: center;
     color: #3575D3;
@@ -47,7 +53,6 @@ del{
     justify-content: center;
     font-size: 15px;
     color:gray;
-    /* padding-bottom: 3%; */
     margin-top: auto;
 }
  ul{
@@ -55,17 +60,18 @@ del{
     display: flex;
     flex-direction: column;
     font-size: 15px;
+    margin-top: auto;
 }
 li{
     padding-top: 2%;
     list-style-type: none
+    
 }
 .buttonHosting{
     display: flex;
     margin-left: 35%;
     border:none;
     width: 30%;
-    /* margin-left: 40%; */
     background-color: rgb(13, 201, 13);
     color: white;
     border-radius: 2px;
@@ -77,6 +83,8 @@ li{
 
 .paragrafHosting{
     font-size: 15px;
+    margin-top: auto;
+  margin-bottom: auto;
 }
 .Footer-Card{
     /* display: flex; */

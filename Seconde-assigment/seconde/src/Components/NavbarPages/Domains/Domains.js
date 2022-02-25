@@ -1,5 +1,4 @@
 import React  from "react";
-import { Component } from "react";
 import { useState } from "react";
 import "./Domains.css"
 import Paragraf from "./Paragraf";
@@ -61,8 +60,8 @@ const Domains  = (props) => {
     }
   ];
 
-// useState
 
+// useState
   const [OpenmyDomains,setOpenmyDomains]=useState(false);
   const [OpenAllDomains,setOpenAllDomains]=useState(false);
 

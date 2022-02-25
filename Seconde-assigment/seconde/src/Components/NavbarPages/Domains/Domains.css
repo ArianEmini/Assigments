@@ -10,7 +10,6 @@
 .Appbar{
   font-display: fixed;
   top:0%;
-  
     
 }
 .Card{
@@ -40,9 +39,9 @@ p{
 }
 .Card-content h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-    
+
 }
+
 .Domainsbutton{
     display: flex;
     margin: auto;
@@ -62,6 +61,12 @@ p{
    
     .Card-content{
         width: 40%;
+    }
+    .buttonToggle{
+        padding: 2% 4%;
+    }
+    .buttonToggleAll{
+        padding: 5% 5%;
     }
 }
 @media(max-width:425px){
@@ -87,6 +92,7 @@ p{
     width: 96%;
     display: block;
     margin: auto;
+    margin-bottom: 1%;
 
 }
 .divi{
@@ -102,9 +108,10 @@ p{
     background-color: #f3f3f3;
     opacity: 1;
     margin-top:2%;
-    margin-right: 1%;
+    margin-right: 2%;
     height: 1%;
-    /* background-color: red; */
+    width: 1%;
+    padding-left: 0;
 
 }
 .buttonToggleAll{
@@ -112,8 +119,10 @@ p{
     background-color: #f3f3f3;
     opacity: 1;
     margin-top:3%;
-    margin-right: 1%;
+    margin-right: 2%;
     height: 1%;
+    width: 1%;
+    padding-left: 0;
 }
 .paragraf-domain{
     font-size: 12px;
