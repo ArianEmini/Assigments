@@ -3,6 +3,7 @@ import { Component } from "react";
 import { useState } from "react";
 import "./Domains.css"
 import Paragraf from "./Paragraf";
+import SomeParagraf from "./SomeParagraf";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faAngleDown} from "@fortawesome/free-solid-svg-icons"
 import {faAngleUp} from "@fortawesome/free-solid-svg-icons"
@@ -66,6 +67,8 @@ const Domains  = (props) => {
   const [OpenAllDomains,setOpenAllDomains]=useState(false);
 
   const [state,setState]=useState(false);
+  const [stateAll,setStateAll]=useState(false);
+
 
   
 // constructor(props){
@@ -85,6 +88,11 @@ const Domains  = (props) => {
 const toggle=()=>{
   setState(!state)
 }
+
+const toggleAll=()=>{
+  setStateAll(!stateAll)
+}
+
 
  
 
@@ -120,12 +128,16 @@ const toggle=()=>{
      <div className='TogglePossible'>
         <div className="divi">
         <FontAwesomeIcon className="IconeUser" icon={faUserCircle}/>
-        <h3 className="AboutUse">About Us</h3>
+        <div>
+        <p className="AboutUse">About Us</p>
         <p>4 articled in this Topic</p>
-        <div className="space"></div>
-        <button onClick={toggle}  className="buttonToggle">{state?<FontAwesomeIcon onClick={()=>setOpenAllDomains(!OpenAllDomains)}   className="icone" icon={faAngleUp}/>:<FontAwesomeIcon onClick={()=>setOpenAllDomains(!OpenAllDomains)}   className="icone" icon={faAngleDown}/>}</button>
         </div>
-     {OpenAllDomains && <Paragraf/>  } 
+        <div className="space"></div>
+
+        <button onClick={toggleAll}  className="buttonToggleAll">{stateAll?<FontAwesomeIcon  onClick={()=>setOpenAllDomains(!OpenAllDomains)}   className="icone" icon={faAngleUp}/>:<FontAwesomeIcon onClick={()=>setOpenAllDomains(!OpenAllDomains)}   className="icone" icon={faAngleDown}/>
+        }</button>
+        </div>
+     {OpenAllDomains && <SomeParagraf/>  } 
      </div>
 
 

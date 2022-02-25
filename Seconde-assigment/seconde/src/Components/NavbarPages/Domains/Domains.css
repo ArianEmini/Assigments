@@ -73,9 +73,18 @@ p{
     }
 }
 
+
+/* Assigment Toggle */
 .TogglePossible{
     border: 1px solid rgb(201, 201, 201);
     width: 80%;
+    display: block;
+    margin: auto;
+
+}
+.TogglePossibleSome{
+    border-top: 1px solid rgb(201, 201, 201);
+    width: 96%;
     display: block;
     margin: auto;
 
@@ -92,8 +101,19 @@ p{
     border:none;
     background-color: #f3f3f3;
     opacity: 1;
+    margin-top:2%;
     margin-right: 1%;
+    height: 1%;
+    /* background-color: red; */
 
+}
+.buttonToggleAll{
+    border:none;
+    background-color: #f3f3f3;
+    opacity: 1;
+    margin-top:3%;
+    margin-right: 1%;
+    height: 1%;
 }
 .paragraf-domain{
     font-size: 12px;
@@ -109,6 +129,10 @@ p{
     padding: 3%;
     /* display: none; */
 }
+.ParaDomainAll{
+    justify-content: flex-start;
+    padding: 1%;
+}
 
 
 
@@ -120,23 +144,21 @@ hr{
    height: 1px !important; 
 }
 
-
 .TogglePossible{
 
     margin-bottom:10%;
 }
 
 .IconeUser{
-    font-size: 30px;
+    font-size: 37px;
     color: #4c8ef1;
-    padding: 13px;
+    padding: 17px;
 }
 .AboutUse{
     color: black;
     font-size: 16px;
+    width: 71%;
+    padding-top: 5px;
+    height: 5%;
 }
-.divi p{
-    display:block;
-    
 
-}
