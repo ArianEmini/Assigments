@@ -70,21 +70,6 @@ const Domains  = (props) => {
   const [stateAll,setStateAll]=useState(false);
 
 
-  
-// constructor(props){
-//     super(props);
-//     this.state={
-//       isToggleOn:false    
-//     }
-//     this.handleClick=this.handleClick.bind(this);
-//   }
-
-//   function handleClick(){
-//     this.setState(state=>({
-//       isToggleOn:!state.isToggleOn
-//     }))
-//   }
-
 const toggle=()=>{
   setState(!state)
 }
